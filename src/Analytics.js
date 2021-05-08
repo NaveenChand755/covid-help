@@ -59,7 +59,7 @@ const Analytics = () => {
     setLastDays(lasttenDays);
   };
 
-  const updated = new Date().toUTCString()
+  const updated = new Date().toUTCString();
 
   return (
     <div>
@@ -113,8 +113,11 @@ const Analytics = () => {
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3 col-md-6">
-          <div style={{color:"darkblue"}}>Last Updated : {updated} <i class="fa fa-bell" aria-hidden="true"></i></div> 
-          <br></br>    
+            <div style={{ color: "darkblue" }}>
+              Last Updated : {updated}{" "}
+              <i class="fa fa-bell" aria-hidden="true"></i>
+            </div>
+            <br></br>
             <Chart
               width={"500px"}
               height={"300px"}
@@ -131,10 +134,13 @@ const Analytics = () => {
               }}
               rootProps={{ "data-testid": "1" }}
             />
-           
+
             <br></br>
             <div style={{ width: "500px" }}>
-              <h5>Select country to get details <i class="fa fa-check" aria-hidden="true"></i> </h5>
+              <h5>
+                Select country to get details{" "}
+                <i class="fa fa-check" aria-hidden="true"></i>{" "}
+              </h5>
               <Select
                 label="Country"
                 placeholder={"Country"}
@@ -143,7 +149,7 @@ const Analytics = () => {
                 onChange={handleSelect}
               />
             </div>
-            <br></br>   
+            <br></br>
           </div>
           <div class="col-sm-9 col-md-6">
             <h5>

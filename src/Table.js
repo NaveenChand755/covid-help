@@ -539,7 +539,7 @@ class Main extends Component {
     ];
     return (
       <div>
-          <h3>COVID PRIVATE HOSPITALS</h3>
+        <h3>COVID PRIVATE HOSPITALS</h3>
         <Table columns={columns} dataSource={data} />
       </div>
     );

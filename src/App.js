@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Table from "./Table";
 import Helplines from "./Helpline";
-import Analytics from './Analytics';
+import Analytics from "./Analytics";
 
 const { Header, Content, Footer } = Layout;
 

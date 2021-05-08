@@ -536,52 +536,62 @@ const data3 = [
 ];
 
 const data4 = [
-    {
-        key: "1",
-        name: "East",
-        phone: "+91-74110-38024",
-      },{
-        key: "2",
-        name: "South",
-        phone: "+91-90199-15817",
-      },{
-        key: "3",
-        name: "Bommanahalli",
-        phone: "	+91-88846-66670",
-      },{
-        key: "4",
-        name: "Yelahanka",
-        phone: "+91-94806-85964",
-      },{
-        key: "5",
-        name: "West",
-        phone: "+91-80-6824-8454",
-      },{
-        key: "6",
-        name: "R R Nagar",
-        phone: "+91-80-2860-1050",
-      },{
-        key: "7",
-        name: "Mahadevpura",
-        phone: "+91-80-2301--0101",
-      },{
-        key: "8",
-        name: "Dasarahalli",
-        phone: "+91-72048-69787",
-      },{
-        key: "9",
-        name: "Anekal Taluk",
-        phone: "	+91-88841-11160",
-      },{
-        key: "10",
-        name: "North Taluk",
-        phone: "+91-89043-22946",
-      },{
-        key: "11",
-        name: "South Taluk",
-        phone: "+91-82775-15788",
-      },
-]
+  {
+    key: "1",
+    name: "East",
+    phone: "+91-74110-38024",
+  },
+  {
+    key: "2",
+    name: "South",
+    phone: "+91-90199-15817",
+  },
+  {
+    key: "3",
+    name: "Bommanahalli",
+    phone: "	+91-88846-66670",
+  },
+  {
+    key: "4",
+    name: "Yelahanka",
+    phone: "+91-94806-85964",
+  },
+  {
+    key: "5",
+    name: "West",
+    phone: "+91-80-6824-8454",
+  },
+  {
+    key: "6",
+    name: "R R Nagar",
+    phone: "+91-80-2860-1050",
+  },
+  {
+    key: "7",
+    name: "Mahadevpura",
+    phone: "+91-80-2301--0101",
+  },
+  {
+    key: "8",
+    name: "Dasarahalli",
+    phone: "+91-72048-69787",
+  },
+  {
+    key: "9",
+    name: "Anekal Taluk",
+    phone: "	+91-88841-11160",
+  },
+  {
+    key: "10",
+    name: "North Taluk",
+    phone: "+91-89043-22946",
+  },
+  {
+    key: "11",
+    name: "South Taluk",
+    phone: "+91-82775-15788",
+  },
+];
 class Helplines extends Component {
   state = {
     searchText: "",
@@ -737,19 +747,19 @@ class Helplines extends Component {
     ];
 
     const columns4 = [
-        {
-          title: "Bangalore Urban Zones",
-          dataIndex: "name",
-          key: "name",
-          width: "30%",
-          ...this.getColumnSearchProps("name"),
-        },
-        {
-          title: "Phone Number",
-          dataIndex: "phone",
-          key: "address",
-        },
-      ];
+      {
+        title: "Bangalore Urban Zones",
+        dataIndex: "name",
+        key: "name",
+        width: "30%",
+        ...this.getColumnSearchProps("name"),
+      },
+      {
+        title: "Phone Number",
+        dataIndex: "phone",
+        key: "address",
+      },
+    ];
 
     return (
       <div>
